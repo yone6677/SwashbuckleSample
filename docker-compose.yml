@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  swashbucklesample:
+    image: swashbucklesample
+    build:
+      context: ./SwashbuckleSample
+      dockerfile: Dockerfile
